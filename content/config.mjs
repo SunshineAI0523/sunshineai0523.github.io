@@ -33,7 +33,7 @@ const config = {
     navLinks: [
       { href: "/", name: "主页" },
       { href: "/articles", name: "文章" },
-      { href: "/blog", name: "Sunshine空间" },
+      { href: "/programming", name: "编程相关" },
       { href: "/travel", name: "旅行日记" },
       { href: "/notes", name: "小记" },
       { href: "/about", name: "关于本站" },
