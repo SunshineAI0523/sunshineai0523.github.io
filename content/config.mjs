@@ -32,11 +32,11 @@ const config = {
     // analytics: "G-RQWLTRWBS2",
     navLinks: [
       { href: "/", name: "主页" },
-      { href: "/Articles", name: "文章" },
-      { href: "/SunshineBlog", name: "Sunshine空间" },
-      { href: "/TravelDiary", name: "旅行日记" },
-      { href: "/Notes", name: "小记" },
-      { href: "/About", name: "关于本站" },
+      { href: "/articles", name: "文章" },
+      { href: "/blog", name: "Sunshine空间" },
+      { href: "/travel", name: "旅行日记" },
+      { href: "/notes", name: "小记" },
+      { href: "/about", name: "关于本站" },
       { href: "/_all", name: "所有标签" },
     ],
     social: [
