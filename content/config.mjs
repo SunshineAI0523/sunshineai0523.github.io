@@ -7,29 +7,29 @@ const config = {
     description: "Record the difficulties and steps encountered in self-learning technology",
     author: "Sunshine AI",
     logo: "/images/icons/logo.svg",
-    domain: "https://flowershow.app",
+    domain: "https://SunshineNotes.app",
     navbarTitle: {
       logo: "/images/icons/logo.svg",
       text: "朝阳笔记SunshineNotes",
-      version: "Stable",
+      version: "Stable"
     },
     // editLinkRoot:
-    //   "https://github.com/datopian/flowershow-app/edit/main",
+    //   "https://github.com/datopian/SunshineNotes-app/edit/main",
     showEditLink: true,
     showToc: true,
     showSidebar: true,
     showComments: true,
-    // comments: {
-    //   provider: "giscus", // supported providers: giscus, utterances, disqus
-    //   pages: ["blog"], // page directories where we want commments
-    //   config: {
-    //     repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
-    //     repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
-    //     category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
-    //     categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
-    //   },
-    // },
-    // analytics: "G-RQWLTRWBS2",
+    comments: {
+      provider: "giscus", // supported providers: giscus, utterances, disqus
+      pages: ["blog"], // page directories where we want commments
+      config: {
+        repo: process.env.NEXT_PUBLIC_GISCUS_REPO,
+        repositoryId: process.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
+        category: process.env.NEXT_PUBLIC_GISCUS_CATEGORY,
+        categoryId: process.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
+      },
+    },
+    analytics: "",
     navLinks: [
       { href: "/", name: "主页" },
       { href: "/articles", name: "文章" },
@@ -42,37 +42,37 @@ const config = {
     social: [
       { label: "github", href: "https://github.com/SunshineAI0523" },
     ],
-    // search: {
-    //   provider: "algolia",
-    //   config: {
-    //     appId: process.env.NEXT_PUBLIC_DOCSEARCH_APP_ID,
-    //     apiKey: process.env.NEXT_PUBLIC_DOCSEARCH_API_KEY,
-    //     indexName: process.env.NEXT_PUBLIC_DOCSEARCH_INDEX_NAME,
-    //   },
-    // },
-//     nextSeo: {
-//       titleTemplate: "%s | Flowershow",
-//       description:
-//         "Turn your markdown notes into an elegant website and tailor it to your needs. Flowershow is easy to use, fully-featured, Obsidian compatible and open-source.",
-//       canonical: "https://flowershow.app",
-//       openGraph: {
-//         title: "Flowershow",
-//         images: [
-//           {
-//             url: "https://flowershow.app/assets/images/frontpage-screenshot.jpg",
-//             alt: "Flowershow",
-//             width: 1200,
-//             height: 627,
-//             type: "image/jpg",
-//           },
-//         ],
-//       },
-//       twitter: {
-//         handle: "@flowershow",
-//         site: "https://flowershow.app",
-//         cardType: "summary_large_image",
-//       },
-//     },
+    search: {
+      provider: "algolia",
+      config: {
+        appId: process.env.NEXT_PUBLIC_DOCSEARCH_APP_ID,
+        apiKey: process.env.NEXT_PUBLIC_DOCSEARCH_API_KEY,
+        indexName: process.env.NEXT_PUBLIC_DOCSEARCH_INDEX_NAME,
+      },
+    },
+    nextSeo: {
+      titleTemplate: "%s | SunshineAI",
+      description:
+        "Record the difficulties and steps encountered in self-learning technology",
+      canonical: "https://github.com/SunshineAI0523",
+      // openGraph: {
+      //   title: "SunshineNotes",
+      //   images: [
+      //     {
+      //       url: "https://SunshineNotes.app/assets/images/frontpage-screenshot.jpg",
+      //       alt: "SunshineNotes",
+      //       width: 1200,
+      //       height: 627,
+      //       type: "image/jpg",
+      //     },
+      //   ],
+      // },
+      // twitter: {
+      //   handle: "@SunshineNotes",
+      //   site: "https://SunshineNotes.app",
+      //   cardType: "summary_large_image",
+      // },
+    },
   };
   
 export default config;
