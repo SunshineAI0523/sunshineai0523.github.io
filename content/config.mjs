@@ -7,10 +7,10 @@ const config = {
     description: "Record the difficulties and steps encountered in self-learning technology",
     author: "Sunshine AI",
     logo: "/images/icons/logo.png",
-    domain: "https://SunshineNotes.app",
+    domain: "https://github.com/SunshineAI0523",
     navbarTitle: {
-      logo: "/images/icons/logo.svg",
-      // text: "朝阳笔记SunshineNotes",
+      logo: "/images/icons/logo.png",
+      text: "朝阳笔记SunshineNotes",
       version: "Stable"
     },
     editLinkRoot:
@@ -36,7 +36,7 @@ const config = {
       { href: "/programming", name: "编程相关" },
       { href: "/travel", name: "旅行日记" },
       { href: "/notes", name: "小记" },
-      { href: "/about", name: "关于本站" },
+      { href: "/about/", name: "关于本站" },
       { href: "/_all", name: "所有标签" },
     ],
     social: [
