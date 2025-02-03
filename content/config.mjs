@@ -6,15 +6,15 @@ const config = {
     title: "SunshineNotes",
     description: "Record the difficulties and steps encountered in self-learning technology",
     author: "Sunshine AI",
-    logo: "/images/icons/logo.svg",
+    logo: "/images/icons/logo.png",
     domain: "https://SunshineNotes.app",
     navbarTitle: {
       logo: "/images/icons/logo.svg",
-      text: "朝阳笔记SunshineNotes",
+      // text: "朝阳笔记SunshineNotes",
       version: "Stable"
     },
-    // editLinkRoot:
-    //   "https://github.com/datopian/SunshineNotes-app/edit/main",
+    editLinkRoot:
+      "https://github.com/SunshineAI0523/SunshineNotes/edit/main",
     showEditLink: true,
     showToc: true,
     showSidebar: true,
