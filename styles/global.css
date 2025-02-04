@@ -1,7 +1,7 @@
 @import "@portaljs/remark-callouts/styles.css";
 
 .nav-logo {
-  height: 2.25rem;
+  height: 2rem; 
 }
 
 /* mathjax */
@@ -12,7 +12,20 @@
 
 /* smooth scrolling in modern browsers */
 html {
+  height: 100vh;
   scroll-behavior: smooth !important;
+  /* background-image: url('../public/images/background2-min.png'); */
+  /* background: linear-gradient(rgba(0, 225, 255, 0.1), rgba(255, 255, 255, 0.1)),
+  url('../public/images/background2-min.png') center/cover no-repeat; */
+  background: linear-gradient(to right, #66CCFF, #6ECDC6);
+  backdrop-filter: blur(100px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* tooltip fade-out clip */
@@ -59,7 +72,7 @@ html {
   transform: translateY(-50%);
   margin: auto 0;
   border-radius: 5px;
-  background: #1e293b;
+  background: #000000;
   opacity: 0;
   transition: opacity 0.2s;
 }

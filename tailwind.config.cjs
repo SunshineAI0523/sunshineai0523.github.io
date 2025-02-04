@@ -10,7 +10,7 @@ module.exports = {
     "./node_modules/@portaljs/core/dist/*.js",
     "./node_modules/@portaljs/core/*.js",
   ],
-  darkMode: "class",
+  // darkMode: "class",
   theme: {
     extend: {
       // support wider width for large screens >1440px eg. in hero
@@ -25,16 +25,16 @@ module.exports = {
       },
       colors: {
         background: {
-          DEFAULT: colors.white,
-          dark: colors.slate[900],
+          DEFAULT: "#fffffcc",
+          dark: "#fffffcc",
         },
         primary: {
-          DEFAULT: colors.gray[700],
-          dark: colors.gray[300],
+          DEFAULT: colors.dark,
+          dark: colors.dark,
         },
         secondary: {
-          DEFAULT: colors.sky[400],
-          dark: colors.sky[400],
+          DEFAULT: colors.white,
+          dark: colors.white,
         },
       },
     },
