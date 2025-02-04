@@ -25,6 +25,7 @@
     "concurrently": "^8.2.2",
     "date-fns": "^2.29.3",
     "esbuild": "^0.24.2",
+    "giscus": "^1.6.0",
     "gray-matter": "^4.0.3",
     "hastscript": "^7.2.0",
     "mddb": "^0.9.1",

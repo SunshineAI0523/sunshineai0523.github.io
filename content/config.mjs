@@ -16,7 +16,7 @@ const config = {
     editLinkRoot:
       "https://github.com/SunshineAI0523/SunshineNotes/edit/main",
     showEditLink: true,
-    showToc: true,
+    showToc: false,
     showSidebar: true,
     showComments: true,
     comments: {
@@ -37,7 +37,7 @@ const config = {
       { href: "/朝阳笔记", name: "朝阳笔记" },
       { href: "/旅行日记", name: "旅行日记" },
       { href: "/本站简介/", name: "本站简介" },
-      { href: "/_all", name: "所有标签" },
+      // { href: "/_all", name: "所有标签" },
     ],
     social: [
       { label: "github", href: "https://github.com/SunshineAI0523" },
