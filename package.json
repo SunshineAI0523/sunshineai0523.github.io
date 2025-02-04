@@ -1,6 +1,7 @@
 {
   "name": "sunshinenotes",
   "version": "2025.2.4",
+  "private":"true",
   "scripts": {
     "dev": "concurrently \"npm run mddb\" \"npm run generate && cross-env NODE_ENV=development next-remote-watch content\" ",
     "prebuild": "npm run generate",
