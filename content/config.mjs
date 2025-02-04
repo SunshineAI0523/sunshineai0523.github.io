@@ -32,11 +32,11 @@ const config = {
     analytics: "",
     navLinks: [
       { href: "/", name: "主页" },
-      { href: "/articles", name: "文章" },
-      { href: "/programming", name: "编程相关" },
-      { href: "/travel", name: "旅行日记" },
-      { href: "/notes", name: "小记" },
-      { href: "/about/", name: "关于本站" },
+      { href: "/各种折腾", name: "各种折腾" },
+      { href: "/编程相关", name: "编程相关" },
+      { href: "/朝阳笔记", name: "朝阳笔记" },
+      { href: "/旅行日记", name: "旅行日记" },
+      { href: "/本站简介/", name: "本站简介" },
       { href: "/_all", name: "所有标签" },
     ],
     social: [
