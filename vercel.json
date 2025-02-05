@@ -1,4 +1,0 @@
-{
-  "installCommand": "npm install yarn -g && yarn install",
-  "buildCommand": "yarn run export"
-}
