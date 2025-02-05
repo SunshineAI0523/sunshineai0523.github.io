@@ -56,6 +56,12 @@
 
   <url>
     <loc
+      >https://github.com/SunshineAI0523/images/template/%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF</loc
+    >
+  </url>
+
+  <url>
+    <loc
       >https://github.com/SunshineAI0523/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/GitSubmodule%E8%87%AA%E5%8A%A8%E8%B7%9F%E9%9A%8F%E4%B8%BB%E5%88%86%E6%94%AF</loc
     >
   </url>
@@ -139,12 +145,6 @@
   <url>
     <loc
       >https://github.com/SunshineAI0523/%E5%BB%BA%E7%AB%99%E6%9D%82%E8%AE%B0/%E4%B8%80%E9%94%AE%E5%8A%A0%E9%80%9F%EF%BC%8C%E8%AE%A9%E4%BD%A0%E7%9A%84Windows%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98%E4%BC%A0%E8%BE%93%E9%80%9F%E5%BA%A6%E9%A3%9E%E8%B5%B7%E6%9D%A5!</loc
-    >
-  </url>
-
-  <url>
-    <loc
-      >https://github.com/SunshineAI0523/template/%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF</loc
     >
   </url>
 
