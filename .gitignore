@@ -6,3 +6,4 @@ out/
 .obsidian/
 .markdowndb/
 tsconfig.tsbuildinfo
+content/template/*
